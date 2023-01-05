@@ -10,8 +10,6 @@ spec:
   test:
     enable: false
   values:
-    service:
-      type: LoadBalancer
     ingress:
       hosts:
         - host: podinfo.staging
